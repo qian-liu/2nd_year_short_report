@@ -1,0 +1,104 @@
+\documentclass[journal]{journal}
+\usepackage[margin=1in]{geometry}
+\usepackage{verbatim}
+\usepackage[justification=centering]{subfig}
+\usepackage{graphicx}
+\usepackage{url} % typeset URL's reasonably
+\usepackage{listings}
+
+\usepackage{pslatex} % Use Postscript fonts
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+%\usepackage[]{algorithm2e}
+%\usepackage{subcaption}
+\usepackage{color}
+\usepackage{multirow}
+\usepackage{makecell}
+
+\usepackage{mathptmx}
+\usepackage{amsmath}
+
+%\usepackage{appendix}
+%define some own functions
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}} 
+\def\D{\mathrm{d}}
+
+\begin{document}
+
+	\title{Towards the Robust Image Recognition Using Spiking Neurons}
+	\author{
+	Qian~Liu
+	\thanks{
+	The author is with the School of Computer Science, University of Manchester, Manchester M13 9PL, U.K. 
+	(e-mail:qian.liu-3@manchester.ac.uk}
+	}
+	\maketitle
+	\thispagestyle{empty}
+
+\begin{abstract}
+
+\end{abstract}
+
+\section{Introduction}
+
+\begin{appendices}
+	\section{Thesis Outline}
+	\label{app:thesis}
+	The following section-level outline gives the planned thesis structure for this project.
+	Sections which are reliant on upcoming work are indicated with a star (*);
+	\begin{enumerate}
+		\item Introduction
+		\item Background
+			\begin{enumerate}
+				\item Neural Network on Image Recognition
+				\item Neuron Models and Spiking Neural Network
+				\item Spiking Neural Network Simulation
+				\item Neuromorphic Simulators
+			\end{enumerate}	
+		\item Related Works
+			\begin{enumerate}
+				\item Vision Databases and Benchmarks
+				\item Deep Neural Networks
+				\item Spike-Based Image Recognition
+				\item Real-Time Neuromorphic Vision System
+			\end{enumerate}
+		\item Benchmarking Spike-Based Visual Recognition
+			\begin{enumerate}
+				\item Database
+				\item Evaluation Methodology
+			\end{enumerate}
+		\item Spiking Deep Belief Network
+			\begin{enumerate}
+				\item Restricted Boltzmann Machine  
+				\item Deep Belief Network
+				\item Spiking RBM and DBN *
+%					\begin{enumerate}
+%					\item Mean Field Theory
+%					\item Synaptic Learning
+%					\end{enumerate}	
+			\end{enumerate}	
+		\item Benchmarks
+			\begin{enumerate}
+				\item ConvNet without Learning
+				\item STDP Learned 2-Layer Network
+				\item Spiking DBN *
+			\end{enumerate}	
+		\item Discussions *
+			\begin{enumerate}
+				\item Benefits of Spikes
+				\item Scalability of H/W SDBN
+				\item Formalisation of SDBN
+			\end{enumerate}					
+		\item Future Work *
+			\begin{enumerate}
+				\item SDBN Toolbox on SpiNNaker
+				\item Learning on Spiking ConvNet
+				\item Video-Based Recognition and Benchmarks
+%				\item Benchmarking Real-Time Neuromorphic Systems
+			\end{enumerate}					
+	\end{enumerate}	
+\end{appendices}
+
+\bibliography{ref}    % this causes the references to be listed
+\bibliographystyle{ieeetr}
+\end{document}

@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+
+\bibitem{hinton2002training}
+G.~E. Hinton, ``Training products of experts by minimizing contrastive
+  divergence,'' {\em Neural computation}, vol.~14, no.~8, pp.~1771--1800, 2002.
+
+\bibitem{woodfordnotes}
+O.~Woodford, ``Notes on contrastive divergence,''
+
+\bibitem{zhang2013rbm}
+C.-X. Zhang, N.-N. Ji, and G.-W. Wang, ``{Introduction of Ristricted Boltzmann
+  Machines (Chinese)},'' {\em www.paper.edu.cn}, 2013.
+
+\bibitem{hopfield1982neural}
+J.~J. Hopfield, ``Neural networks and physical systems with emergent collective
+  computational abilities,'' {\em Proceedings of the national academy of
+  sciences}, vol.~79, no.~8, pp.~2554--2558, 1982.
+
+\bibitem{welling2004exponential}
+M.~Welling, M.~Rosen-Zvi, and G.~E. Hinton, ``Exponential family harmoniums
+  with an application to information retrieval,'' in {\em Advances in neural
+  information processing systems}, pp.~1481--1488, 2004.
+
+\bibitem{hinton2006fast}
+G.~E. Hinton, S.~Osindero, and Y.-W. Teh, ``A fast learning algorithm for deep
+  belief nets,'' {\em Neural computation}, vol.~18, no.~7, pp.~1527--1554,
+  2006.
+
+\bibitem{arel2010deep}
+I.~Arel, D.~C. Rose, and T.~P. Karnowski, ``Deep machine learning-a new
+  frontier in artificial intelligence research [research frontier],'' {\em
+  Computational Intelligence Magazine, IEEE}, vol.~5, no.~4, pp.~13--18, 2010.
+
+\bibitem{neftci2013event}
+E.~Neftci, S.~Das, B.~Pedroni, K.~Kreutz-Delgado, and G.~Cauwenberghs,
+  ``Event-driven contrastive divergence for spiking neuromorphic systems,''
+  {\em Frontiers in neuroscience}, vol.~7, 2013.
+
+\end{thebibliography}
