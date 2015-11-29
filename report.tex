@@ -5,7 +5,7 @@
 \usepackage{graphicx}
 \usepackage{url} % typeset URL's reasonably
 \usepackage{listings}
-\usepackage[colorlinks]{hyperref}
+%\usepackage[colorlinks]{hyperref}
 \usepackage{pslatex} % Use Postscript fonts
 \usepackage{algorithm}
 \usepackage{algpseudocode}
@@ -471,7 +471,7 @@
 	The output neuron with the highest firing rate decides what digit was recognized.
 	Taken the trained weights from the NEST simulation, the accuracy of the recognition on NEST reaches 90.03\% with the standard configuration, while the result drops slightly to 89.97\% using SpiNNaker.
 	In comparison, both trained and tested on SpiNNaker the recognition accuracy is 87.41\%, and with the same weights applied to NEST the result turns out to be 87.25\%.  
-\section{Future Work: Spiking Deep Belief Net}
+\section{Preliminary and Future Work}
 	In order to implement training of Spiking Deep~Belief~Networks~(SDBNs) on SpiNNaker, this paper studies the layer-by-layer training of spiking Restricted~Boltzmann~Machine~(RBM) of a DBN.
 	The study starts from understanding the original problem, Products of Experts~(PoE), which was solved by using Contrastive~Divergence~(CD).
 	It involves utilising Markov~Chain~Monte~Carlo~(MCMC) sampling to present the distribution of a certain untraceable high-dimensional probability model function, e.g. PoE.
@@ -482,7 +482,12 @@
 	
 	Need to draw a figure!
 	And Gantt Chart.
-	
+		\begin{figure*}[hbt]
+			\centering
+			\includegraphics[width=0.8\textwidth]{images/gantt.png}
+			\caption{Gantt Chart of the future work.}
+			\label{fig:gannt}
+		\end{figure*}
 \begin{appendices}
 	\section{Thesis Outline}
 	\label{app:thesis}
@@ -514,6 +519,7 @@
 				\item Restricted Boltzmann Machine  
 				\item Deep Belief Network
 				\item Spiking RBM and DBN *
+				\item Formalisation of SDBN *
 %					\begin{enumerate}
 %					\item Mean Field Theory
 %					\item Synaptic Learning
@@ -521,21 +527,22 @@
 			\end{enumerate}	
 		\item Benchmarks
 			\begin{enumerate}
-				\item ConvNet without Learning
 				\item STDP Learned 2-Layer Network
 				\item Spiking DBN *
+				\item Off-line Trained Convolutional Network *
 			\end{enumerate}	
 		\item Discussions *
 			\begin{enumerate}
-				\item Benefits of Spikes
-				\item Scalability of H/W SDBN
-				\item Formalisation of SDBN
+				\item Benefits of Spike-based Processing *
+				\item Scalability of Hardware SDBN *
+				\item Future NE Database Development *
 			\end{enumerate}					
 		\item Future Work *
 			\begin{enumerate}
-				\item SDBN Toolbox on SpiNNaker
-				\item Learning on Spiking ConvNet
-				\item Video-Based Recognition and Benchmarks
+				\item SDBN Toolbox on SpiNNaker *
+				\item Learning on Spiking Convolutional Network  *
+				\item Video-Based Recognition and Benchmarks *
+				\item Natural Language Processing and Benchmarks *
 %				\item Benchmarking Real-Time Neuromorphic Systems
 			\end{enumerate}					
 	\end{enumerate}	
