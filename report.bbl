@@ -1,50 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{riesenhuber1999hierarchical}
-M.~Riesenhuber and T.~Poggio, ``Hierarchical models of object recognition in
-  cortex,'' {\em Nature neuroscience}, vol.~2, no.~11, pp.~1019--1025, 1999.
-
-\bibitem{serre2007robust}
-T.~Serre, L.~Wolf, S.~Bileschi, M.~Riesenhuber, and T.~Poggio, ``Robust object
-  recognition with cortex-like mechanisms,'' {\em Pattern Analysis and Machine
-  Intelligence, IEEE Transactions on}, vol.~29, no.~3, pp.~411--426, 2007.
-
-\bibitem{fu2012spiking}
-S.-Y. Fu, G.-S. Yang, and X.-K. Kuai, ``A spiking neural network based
-  cortex-like mechanism and application to facial expression recognition,''
-  {\em Computational intelligence and neuroscience}, vol.~2012, p.~19, 2012.
-
-\bibitem{lyons1998coding}
-M.~Lyons, S.~Akamatsu, M.~Kamachi, and J.~Gyoba, ``Coding facial expressions
-  with gabor wavelets,'' in {\em Automatic Face and Gesture Recognition, 1998.
-  Proceedings. Third IEEE International Conference on}, pp.~200--205, 1998.
-
-\bibitem{vanrullen2002surfing}
-R.~Van~Rullen and S.~J. Thorpe, ``Surfing a spike wave down the ventral
-  stream,'' {\em Vision research}, vol.~42, no.~23, pp.~2593--2615, 2002.
-
-\bibitem{delorme2001face}
-A.~Delorme and S.~J. Thorpe, ``{Face identification using one spike per neuron:
-  resistance to image degradations},'' {\em Neural Networks}, vol.~14, no.~6,
-  pp.~795--803, 2001.
-
-\bibitem{lecun1998gradient}
-Y.~LeCun, L.~Bottou, Y.~Bengio, and P.~Haffner, ``Gradient-based learning
-  applied to document recognition,'' {\em Proceedings of the IEEE}, vol.~86,
-  no.~11, pp.~2278--2324, 1998.
-
-\bibitem{matsugu2002convolutional}
-M.~Matsugu, K.~Mori, M.~Ishii, and Y.~Mitarai, ``Convolutional spiking neural
-  network model for robust face detection,'' in {\em Neural Information
-  Processing, 2002. ICONIP'02. Proceedings of the 9th International Conference
-  on}, vol.~2, pp.~660--664, 2002.
-
-\bibitem{zhao2014feedforward}
-B.~Zhao, R.~Ding, S.~Chen, B.~Linares-Barranco, and H.~Tang, ``{Feedforward
-  categorization on AER motion events using cortex-like features in a spiking
-  neural network},'' {\em Neural Networks and Learning Systems, IEEE
-  Transactions on}, vol.~26, pp.~1963--1978, Sept 2015.
-
 \bibitem{camunas2012event}
 L.~Camunas-Mesa, C.~Zamarre{\~n}o-Ramos, A.~Linares-Barranco, A.~J.
   Acosta-Jim{\'e}nez, T.~Serrano-Gotarredona, and B.~Linares-Barranco, ``An
@@ -52,68 +7,10 @@ L.~Camunas-Mesa, C.~Zamarre{\~n}o-Ramos, A.~Linares-Barranco, A.~J.
   vision sensors,'' {\em Solid-State Circuits, IEEE Journal of}, vol.~47,
   no.~2, pp.~504--517, 2012.
 
-\bibitem{liu2014real}
-Q.~Liu and S.~Furber, ``Real-time recognition of dynamic hand postures on a
-  neuromorphic system,'' in {\em Artificial Neural Networks, 2015. ICANN.
-  International Conference on}, vol.~1, p.~979, 2015.
-
-\bibitem{furber2014spinnaker}
-S.~B. Furber, F.~Galluppi, S.~Temple, L.~Plana, {\em et~al.}, ``{The SpiNNaker
-  Project},'' {\em Proceedings of the IEEE}, vol.~102, no.~5, pp.~652--665,
-  2014.
-
-\bibitem{o2013real}
-P.~O'Connor, D.~Neil, S.-C. Liu, T.~Delbruck, and M.~Pfeiffer, ``Real-time
-  classification and sensor fusion with a spiking deep belief network,'' {\em
-  Frontiers in neuroscience}, vol.~7, 2013.
-
-\bibitem{neil2014minitaur}
-D.~Neil and S.-C. Liu, ``{Minitaur, an event-driven FPGA-based spiking network
-  accelerator},'' {\em Very Large Scale Integration (VLSI) Systems, IEEE
-  Transactions on}, vol.~22, no.~12, pp.~2621--2628, 2014.
-
-\bibitem{Stromatias2015scalable}
-E.~Stromatias, D.~Neil, F.~Galluppi, M.~Pfeiffer, S.-C. Liu, and S.~Furber,
-  ``{Scalable energy-efficient, low-latency implementations of trained spiking
-  deep belief networks on SpiNNaker},'' in {\em Neural Networks (IJCNN), The
-  2015 International Joint Conference on}, p.~to be published, IEEE, 2015.
-
-\bibitem{cao2015spiking}
-Y.~Cao, Y.~Chen, and D.~Khosla, ``Spiking deep convolutional neural networks
-  for energy-efficient object recognition,'' {\em International Journal of
-  Computer Vision}, vol.~113, no.~1, pp.~54--66, 2015.
-
-\bibitem{Diehl2015fast}
-P.~Diehl, D.~Neil, J.~Binas, M.~Cook, S.-C. Liu, and M.~Pfeiffer,
-  ``Fast-classifying, high-accuracy spiking deep networks through weight and
-  threshold balancing,'' in {\em Neural Networks (IJCNN), The 2015
-  International Joint Conference on}, p.~to be published, 2015.
-
-\bibitem{neftci2013event}
-E.~Neftci, S.~Das, B.~Pedroni, K.~Kreutz-Delgado, and G.~Cauwenberghs,
-  ``Event-driven contrastive divergence for spiking neuromorphic systems,''
-  {\em Frontiers in neuroscience}, vol.~7, 2013.
-
-\bibitem{bichler2012extraction}
-O.~Bichler, D.~Querlioz, S.~J. Thorpe, J.-P. Bourgoin, and C.~Gamrat,
-  ``Extraction of temporally correlated features from dynamic vision sensors
-  with spike-timing-dependent plasticity,'' {\em Neural Networks}, vol.~32,
-  pp.~339--348, 2012.
-
-\bibitem{diehl2015unsupervised}
-P.~U. Diehl and M.~Cook, ``Unsupervised learning of digit recognition using
-  spike-timing-dependent plasticity,'' {\em Frontiers in Computational
-  Neuroscience}, vol.~9, p.~99, 2015.
-
-\bibitem{nessler2013bayesian}
-B.~Nessler, M.~Pfeiffer, L.~Buesing, and W.~Maass, ``Bayesian computation
-  emerges in generic cortical microcircuits through spike-timing-dependent
-  plasticity,'' {\em PLoS Comput Biol}, 2013.
-
-\bibitem{bill2014compound}
-J.~Bill and R.~Legenstein, ``{A compound memristive synapse model for
-  statistical learning through STDP in spiking neural networks},'' {\em
-  Frontiers in neuroscience}, vol.~8, 2014.
+\bibitem{lecun1998gradient}
+Y.~LeCun, L.~Bottou, Y.~Bengio, and P.~Haffner, ``Gradient-based learning
+  applied to document recognition,'' {\em Proceedings of the IEEE}, vol.~86,
+  no.~11, pp.~2278--2324, 1998.
 
 \bibitem{delbruck2008frame}
 T.~Delbruck, ``Frame-free dynamic digital vision,'' in {\em Proceedings of
@@ -130,38 +27,6 @@ T.~Serrano-Gotarredona and B.~Linares-Barranco, ``{A 128$\times$128 1.5\%
 A.~P. Davison, D.~Br{\"u}derle, J.~Eppler, J.~Kremkow, E.~Muller, D.~Pecevski,
   L.~Perrinet, and P.~Yger, ``{PyNN: a common interface for neuronal network
   simulators},'' {\em Frontiers in neuroinformatics}, vol.~2, 2008.
-
-\bibitem{squire1998findings}
-L.~R. Squire and S.~M. Kosslyn, {\em Findings and current opinion in cognitive
-  neuroscience}.
-\newblock MIT Press, 1998.
-
-\bibitem{van2001rate}
-R.~Van~Rullen and S.~J. Thorpe, ``Rate coding versus temporal order coding:
-  what the retinal ganglion cells tell the visual cortex,'' {\em Neural
-  computation}, vol.~13, no.~6, pp.~1255--1283, 2001.
-
-\bibitem{sen2009evaluating}
-B.~Sen and S.~Furber, ``Evaluating rank-order code performance using a
-  biologically-derived retinal model,'' in {\em Neural Networks, 2009. IJCNN.
-  International Joint Conference on}, pp.~2867--2874, IEEE, 2009.
-
-\bibitem{masmoudi2010novel}
-K.~Masmoudi, M.~Antonini, P.~Kornprobst, and L.~Perrinet, ``A novel
-  bio-inspired static image compression scheme for noisy data transmission over
-  low-bandwidth channels,'' in {\em Acoustics Speech and Signal Processing
-  (ICASSP), 2010 IEEE International Conference on}, pp.~3506--3509, 2010.
-
-\bibitem{brader2007learning}
-J.~M. Brader, W.~Senn, and S.~Fusi, ``Learning real-world stimuli in a neural
-  network with spike-driven synaptic dynamics,'' {\em Neural computation},
-  vol.~19, no.~11, pp.~2881--2912, 2007.
-
-\bibitem{beyeler2013categorization}
-M.~Beyeler, N.~D. Dutt, and J.~L. Krichmar, ``{Categorization and
-  decision-making in a neurobiologically plausible spiking network using a
-  STDP-like learning rule},'' {\em Neural Networks}, vol.~48, pp.~109--124,
-  2013.
 
 \bibitem{stromatias2013power}
 E.~Stromatias, F.~Galluppi, C.~Patterson, and S.~Furber, ``{Power analysis of
@@ -194,5 +59,27 @@ T.~Yu, J.~Park, S.~Joshi, C.~Maier, and G.~Cauwenberghs, ``{65k-neuron
   Integrate-and-Fire array transceiver with address-event reconfigurable
   synaptic routing},'' in {\em Biomedical Circuits and Systems Conference
   (BioCAS), 2012 IEEE}, pp.~21--24, 2012.
+
+\bibitem{Liu2015Bench}
+Q.~Liu, G.~Pineda-Garcia, E.~Stromatias, T.~Serrano-Gotarredona, and S.~Furber,
+  ``{Benchmarking Spike-Based Visual Recognition: A Dataset and Evaluation},''
+  {\em Frontiers in Neuromorphic Enginerring}, under review.
+
+\bibitem{o2013real}
+P.~O'Connor, D.~Neil, S.-C. Liu, T.~Delbruck, and M.~Pfeiffer, ``Real-time
+  classification and sensor fusion with a spiking deep belief network,'' {\em
+  Frontiers in neuroscience}, vol.~7, 2013.
+
+\bibitem{goodman2008brian}
+D.~Goodman and R.~Brette, ``{Brian: a simulator for spiking neural networks in
+  Python},'' {\em Frontiers in neuroinformatics}, vol.~2, 2008.
+
+\bibitem{liu2015sdbn}
+Q.~Liu, ``On-line training of spiking deep belief network,'' 2015.
+
+\bibitem{neftci2013event}
+E.~Neftci, S.~Das, B.~Pedroni, K.~Kreutz-Delgado, and G.~Cauwenberghs,
+  ``Event-driven contrastive divergence for spiking neuromorphic systems,''
+  {\em Frontiers in neuroscience}, vol.~7, 2013.
 
 \end{thebibliography}
